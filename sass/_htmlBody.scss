@@ -1,0 +1,17 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  min-width: 280px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-color: $firstBackgroundColor;
+  @media (max-width: 991.98px) {
+    flex-direction: column;
+  }
+}

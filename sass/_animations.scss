@@ -1,0 +1,36 @@
+@keyframes burgerIconDelay {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes showMobileMenu {
+  from {
+    transform: translate(200%, 0);
+  }
+  to {
+    transform: translate(-200%, 60px);
+  }
+}
+
+@keyframes skillDotsPulse {
+  from {
+    background-color: $firstFontColor;
+  }
+  50% {
+    background-color: lighten($color: $firstFontColor, $amount: 40%);
+  }
+  to {
+    background-color: $firstFontColor;
+  }
+}
+
+@keyframes showPhoto {
+  0% {opacity: 0}
+  30% {opacity: 1}
+  90% {opacity: 1}
+  100% {opacity: 0}
+}

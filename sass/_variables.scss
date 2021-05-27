@@ -1,0 +1,44 @@
+// background color
+$firstBackgroundColor: #0d0d0e;
+$secondBackgroundColor:#161828;
+
+// font color
+$firstFontColor:rgb(0, 225, 255);
+$secondFontColor: #25BDD6;
+$thirdFontColor: #ddd;
+
+// font family
+$firstFontFamily: 'IBM Plex Mono', monospace;
+$secondFontFamily: 'Raleway', sans-serif;
+$thirdFontFamily: 'Source Sans Pro', sans-serif;
+
+// active color
+$activeColor:  rgb(233, 223, 90);
+
+// titles
+$titleFontSize: 40px;
+$titleFontFamily: $secondFontFamily;
+$titleMarginTop: 50px;
+$titleMarginBottom: 50px;
+$titlePaddingTop: 20px;
+$titlePaddingBottom: 20px;
+$titleLetterSpacing: 1.5px;
+
+// subtitles
+$subtitleFontSize: 30px;
+$subtitleFontFamily: $secondFontFamily;
+$subtitleMarginTop: 30px;
+$subtitleMarginBottom: 30px;
+$subtitlePaddingTop: 10px;
+$subtitlePaddingBottom: 10px;
+$subtitleLetterSpacing: 1.5px;
+
+// paragraphs
+$paragraphFontSize: 20px;
+$paragraphFontFamily: $secondFontFamily;
+$paragraphMarginTop: 10px;
+$paragraphMarginBottom: 40px;
+$paragraphPaddingTop: 10px;
+$paragraphPaddingBottom: 10px;
+$paragraphLetterSpacing: 1.6px;
+$paragraphLineHeight: 160%;

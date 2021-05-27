@@ -1,0 +1,91 @@
+// aside email adress
+.aside-email-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: fixed;
+  transform: rotate(90deg);
+  height: 50px;
+  width: 400px;
+  bottom: 150px;
+  left: 75%;
+  z-index: 2;
+  @media (max-width: 1199.98px) {
+    right: 10%;
+  }
+  @media (max-width: 991.98px) {
+    right: 18%;
+  }
+  @media (max-width: 880px) {
+    right: 25%;
+  }
+  @media (max-width: 840px) and (orientation: landscape) {
+    display: none;
+  }
+  @media (max-width: 767.98px) and (orientation: landscape) {
+    display: none;
+  }
+  .aside-email {
+    color: $firstFontColor;
+    font-family: $firstFontFamily;
+    letter-spacing: 1.6px;
+    margin-right: 30px;
+    font-size: 12px;
+    text-shadow: 1px 1px 10px 1px $firstFontColor;
+  }
+  .aside-line {
+    background-color: $firstFontColor;
+    border: none;
+    height: 1px;
+    width: 100px;
+  }
+}
+.container {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 3%;
+  width: calc(100% - 100px);
+  min-width: 280px;
+  min-height: 100vh;
+  background-color: $firstBackgroundColor;
+  padding: 3%;
+  @media (max-width: 991.98px) {
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    min-height: calc(100vh - 100px);
+  }
+}
+
+.menu__link.active {
+  color: $activeColor;
+}
+
+// animated titles
+.animated_char {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all .4s ease;
+}
+
+.animated_char.fade {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+// reveal webside elements
+.reveal, .reveal-scroll {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+
+.reveal.active, .reveal-scroll.active {
+  transform: translateY(0px);
+  opacity: 1;
+}

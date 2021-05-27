@@ -1,0 +1,113 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  background-color: $firstBackgroundColor;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  font-family: $secondFontFamily;
+  font-weight: 200;
+  @media (max-width: 991.98px) {
+    width: 90%;
+  }
+  @media (max-width: 575.98px) {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .hero__main-title {
+    font-family: $thirdFontFamily;
+    font-size: 18px;
+    color: $firstFontColor;
+    letter-spacing: 1.6px;
+    font-weight: 300;
+    width: 90%;
+    @media (max-width: 991.98px) {
+      font-size: 15px;
+      letter-spacing: 1.5px;
+    }
+  }
+  .hero__main-subtitle {
+    width: 90%;
+    font-family: $secondFontFamily;
+    font-size: 80px;
+    color: $thirdFontColor;
+    margin: 20px 0;
+    @media (max-width: 991.98px) {
+      font-size: 70px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 60px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 45px;
+    }
+  }
+  .hero__second-main-subtitle {
+    width: 90%;
+    font-family: $secondFontFamily;
+    font-size: 50px;
+    color: darken($thirdFontColor, 30%);
+    margin-bottom: 20px;
+    @media (max-width: 991.98px) {
+      font-size: 35px;
+    }
+    @media (max-width: 870px) {
+      font-size: 32px;
+    }
+    @media (max-width: 767.98px) {
+      font-size: 30px;
+    }
+    @media (max-width: 575.98px) {
+      font-size: 25px;
+    }
+  }
+  .hero__description {
+    width: 90%;
+    font-family: $secondFontFamily;
+    font-size: 20px;
+    color: darken($thirdFontColor, 30%);
+    margin-bottom: 40px;
+    letter-spacing: 1.6px;
+    line-height: 160%;
+    @media (max-width: 991.98px) {
+      font-size: 18px;
+      line-height: 150%;
+      margin-bottom: 30px;
+    }
+    @media (max-width: 767.98px) {
+      width: 70%;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    @media (max-width: 575.98px) {
+      width: 90%;
+      font-size: 14px;
+    }
+  }
+  .hero__contact-btn-container {
+    height: 60px;
+    width: 90%;
+    margin-top: 20px;
+    @media (max-width: 575.98px) {
+      margin-top: 5px;
+    }
+    .hero__contact-btn {
+      width: 150px;
+      height: 60px;
+      background-color: transparent;
+      border: none;
+      border: 1px solid $firstFontColor;
+      border-radius: 4px;
+      color: $firstFontColor;
+      font-family: $secondFontFamily;
+      letter-spacing: 1.4px;
+      outline: none;
+      cursor: pointer;
+      transition: .4s;
+      &:hover {
+        background-color: rgba($firstFontColor, .1);
+      }
+    }
+  }
+}
