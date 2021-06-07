@@ -1,3 +1,9 @@
+// handling loader
+window.addEventListener('load', () => {
+  const loader = document.querySelector('.loader-page');
+  loader.classList.add('loader-page--finish');
+})
+
 const burger = document.querySelector('.burger-icon');
 const burgerLines = document.querySelectorAll('.burger__line');
 const menuMobile = document.querySelector('.menu__item-list');
@@ -17,10 +23,10 @@ burger.addEventListener('click', ()=> {
   menuMobile.classList.toggle('menu__mobile--open');
 });
 
+
 // titles animation
 const text = document.querySelector('.animated__title');
 const strText = text.textContent;
-console.log(strText);
 const splitText = strText.split("");
 text.textContent = "";
 

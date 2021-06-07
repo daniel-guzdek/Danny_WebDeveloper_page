@@ -6,7 +6,7 @@
   width: 100px;
   background-color: darken($firstBackgroundColor, 20%);
   overflow: hidden;
-  z-index: 1000;
+  z-index: 100;
   .menu__logo {
     display: flex;
     justify-content: center;
