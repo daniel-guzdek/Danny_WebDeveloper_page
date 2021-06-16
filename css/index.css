@@ -2665,4 +2665,66 @@ body {
 .contact .contact__wrapper .form .submit-btn:hover {
   background-color: rgba(0, 225, 255, 0.1);
 }
+
+.thankYouPage {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #0d0d0e;
+}
+
+.thankYouPage .thankYou__main-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  letter-spacing: 1.5px;
+  color: #ddd;
+}
+
+.thankYouPage .thankYou__btn-container {
+  height: 60px;
+  width: 90%;
+  margin-top: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .thankYouPage .thankYou__btn-container {
+    margin-top: 5px;
+  }
+}
+
+.thankYouPage .thankYou__btn-container .thankYou__btn {
+  width: 200px;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  border: 1px solid #00e1ff;
+  border-radius: 4px;
+  color: #00e1ff;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 1.4px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.thankYouPage .thankYou__btn-container .thankYou__btn:hover {
+  background-color: rgba(0, 225, 255, 0.1);
+}
 /*# sourceMappingURL=index.css.map */

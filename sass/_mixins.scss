@@ -22,10 +22,7 @@
 @mixin paragraph {
   font-family: $secondFontFamily;
   font-size: $paragraphFontSize;
-  // margin-top: $paragraphMarginTop;
   margin-bottom: $paragraphMarginBottom;
-  // padding-top: $paragraphPaddingTop;
-  // padding-bottom: $paragraphPaddingBottom;
   letter-spacing: $paragraphLetterSpacing;
   line-height: $paragraphLineHeight;
   font-family: $secondFontFamily;
