@@ -77,7 +77,6 @@
           &:nth-child(2) {
             flex-direction: row-reverse;
             align-items: flex-end;
-            justify-content: flex-start;
             .big-project__image-container {
               @media (max-width: 1024px) {
                 grid-area: 1/-1/2/6;
