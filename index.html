@@ -1,88 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="icon" href="./images/favicon.png" sizes="16x16" type="image/png">
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/index.css">
-  <title>Danny Web Developer</title>
-</head>
-<body>
-  <!-- loader page -->
-  <div class="loader-page">
-    <div class="loader-object">
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
-      <div></div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="icon"
+      href="./images/favicon.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>D. L. Guzdek - Tech Projects</title>
+  </head>
+  <body>
+    <!-- loader page -->
+    <div class="loader-page">
+      <div class="loader-object">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
-  </div>
-  <nav class="menu">
-    <div class="menu__logo">
-      <a href="./index.html" class="menu__logo-link"><i class="fas fa-vector-square logo__icon"></i><spam class="logo__title">Danny Web Developer</spam></a>
+    <nav class="menu">
+      <div class="menu__logo">
+        <a href="./index.html" class="menu__logo-link"
+          ><i class="fas fa-vector-square logo__icon"></i
+          ><spam class="logo__title">D. L. Guzdek Tech Projects</spam></a
+        >
+      </div>
+      <!-- menu list -->
+      <ul class="menu__item-list">
+        <li class="menu__item">
+          <a href="#" class="menu__link active"
+            ><i class="fas fa-home icon"></i
+          ></a>
+        </li>
+        <li class="menu__item">
+          <a href="./pages/about.html" class="menu__link"
+            ><i class="far fa-user icon"></i
+          ></a>
+        </li>
+        <li class="menu__item">
+          <a href="./pages/skills.html" class="menu__link"
+            ><i class="fas fa-cogs icon"></i
+          ></a>
+        </li>
+        <li class="menu__item">
+          <a href="./pages/projects.html" class="menu__link"
+            ><i class="far fa-eye icon"></i
+          ></a>
+        </li>
+        <li class="menu__item">
+          <a href="./pages/contact.html" class="menu__link"
+            ><i class="far fa-envelope icon"></i
+          ></a>
+        </li>
+      </ul>
+      <!-- socials -->
+      <ul class="socials__item-list">
+        <li class="socials__item">
+          <a href="https://github.com/daniel-guzdek" class="socials__icon"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+        <li class="socials__item">
+          <a
+            href="https://www.facebook.com/daniel.guzdek.568"
+            class="socials__icon"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+        </li>
+        <li class="socials__item">
+          <a
+            href="https://www.linkedin.com/in/daniel-guzdek-a45b24214/"
+            class="socials__icon"
+            ><i class="fab fa-linkedin-in"></i
+          ></a>
+        </li>
+      </ul>
+      <!-- burger icon -->
+      <div class="burger">
+        <div class="burger-icon">
+          <div class="burger__line burger__line-1"></div>
+          <div class="burger__line burger__line-2"></div>
+          <div class="burger__line burger__line-3"></div>
+          <div class="burger__line burger__line-4"></div>
+        </div>
+      </div>
+    </nav>
+    <aside class="aside-email-container hero-aside-email-container">
+      <p class="aside-email">daniel.guzdek.86@gmail.com</p>
+      <hr class="aside-line" />
+    </aside>
+    <div class="container hero">
+      <h1 class="hero__main-title animated__title">Hello! Here is</h1>
+      <h2 class="hero__main-subtitle reveal">Daniel L. Guzdek's</h2>
+      <h3 class="hero__second-main-subtitle reveal">Tech Projects Webside</h3>
+      <p class="hero__description reveal">
+        I am a programmer passionate about modern technologies. I mainly design
+        web applications and write small games for fun.
+      </p>
+      <div class="hero__contact-btn-container">
+        <a href="./pages/projects.html"
+          ><button class="hero__contact-btn">See my projects</button></a
+        >
+      </div>
     </div>
-    <!-- menu list -->
-    <ul class="menu__item-list">
-      <li class="menu__item">
-        <a href="#" class="menu__link active"><i class="fas fa-home icon"></i></a>
-      </li>
-      <li class="menu__item">
-        <a href="./pages/about.html" class="menu__link"><i class="far fa-user icon"></i></a>
-      </li>
-      <li class="menu__item">
-        <a href="./pages/skills.html" class="menu__link"><i class="fas fa-cogs icon"></i></a>
-      </li>
-      <li class="menu__item">
-        <a href="./pages/projects.html" class="menu__link"><i class="far fa-eye icon"></i></a>
-      </li>
-      <li class="menu__item">
-        <a href="./pages/contact.html" class="menu__link"><i class="far fa-envelope icon"></i></a>
-      </li>
-    </ul>
-    <!-- socials -->
-    <ul class="socials__item-list">
-      <li class="socials__item">
-        <a href="https://github.com/daniel-guzdek" class="socials__icon"><i class="fab fa-github"></i></a>
-      </li>
-      <li class="socials__item">
-        <a href="https://www.facebook.com/daniel.guzdek.568" class="socials__icon"><i class="fab fa-facebook-f"></i></a>
-      </li>
-      <li class="socials__item">
-        <a href="https://www.linkedin.com/in/daniel-guzdek-a45b24214/" class="socials__icon"><i class="fab fa-linkedin-in"></i></a>
-      </li>
-    </ul>
-    <!-- burger icon -->
-    <div class="burger">
-      <div class="burger-icon">
-        <div class="burger__line burger__line-1"></div>
-        <div class="burger__line burger__line-2"></div>
-        <div class="burger__line burger__line-3"></div>
-        <div class="burger__line burger__line-4"></div>
-      </div> 
-    </div>
-  </nav>
-  <aside class="aside-email-container hero-aside-email-container">
-    <p class="aside-email">daniel.guzdek.86@gmail.com</p><hr class="aside-line">
-  </aside>
-  <div class="container hero">
-    <h1 class="hero__main-title animated__title">Hello! Mi name is</h1>
-    <h2 class="hero__main-subtitle reveal">Daniel L. Guzdek</h2>
-    <h3 class="hero__second-main-subtitle reveal">I am Web Designer.</h3>
-    <p class="hero__description reveal">I am a junior front-end developer living in Warsaw and passionate about modern technologies. I design websites, web applications and write small games.</p>
-    <div class="hero__contact-btn-container">
-      <a href="./pages/projects.html"><button class="hero__contact-btn">See my projects</button></a>
-    </div>
-  </div>
-  <script src="./js/main.js"></script>
-</body>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
