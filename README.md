@@ -1,2 +1,2 @@
-# Danny_WebDeveloper_page
-Daniel L. Guzdek Portfolio Webside
+# Tech Projects Webside
+Daniel L. Guzdek Portfolio
